@@ -1,7 +1,7 @@
 /* Suckless ST config.h Fragment
  * Generated with Hodler (http://github.com/matttproud/hodler)
  */
-static const char *colorname[] = {
+const char *colorname[] = {
 	"#2a2e33",		/* 0: ANSI Color 0 */
 	"#b74d50",		/* 1: ANSI Color 1 */
 	"#b3be5a",		/* 2: ANSI Color 2 */
@@ -28,7 +28,7 @@ static const char *colorname[] = {
 	/* No support for bold coloring; would be #b7bcb9. */
 };
 
-static unsigned int defaultfg  = 257;
-static unsigned int defaultbg  = 256;
-static unsigned int defaultcs  = 258;
-static unsigned int defaultrcs = 259;
+unsigned int defaultfg  = 257;
+unsigned int defaultbg  = 256;
+unsigned int defaultcs  = 258;
+unsigned int defaultrcs = 259;
