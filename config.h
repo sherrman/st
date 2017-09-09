@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Inconsolata:pixelsize=12:antialias=true:autohint=true";
+char font[] = "Inconsolata:pixelsize=14:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -63,7 +63,7 @@ unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char termname[] = "st-256color";
+char termname[] = "xterm-256color";
 
 /*
  * spaces per tab
